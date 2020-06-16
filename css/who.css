@@ -1,0 +1,89 @@
+.who-bg {
+  background-color: #f6f6f6;
+  min-height: 100vh;
+}
+
+.who__main {
+  max-width: 400px;
+  position: absolute;
+  top: 50vh;
+  transform: translate(0, -50%);
+}
+.who__title h2 {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 53px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.who__text p {
+  color: #888888;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.who__rhomb-container {
+  transform: rotate(-45deg) translateY(-50%);
+  position: absolute;
+  right: -150px;
+  top: 50vh;
+}
+.who__row {
+  display: flex;
+}
+.who__rhomb {
+  width: 160px;
+  height: 160px;
+  background: #fff;
+  margin: 3px;
+  text-align: center;
+  position: relative;
+  transition: 0.5s all ease;
+}
+.who__rhomb:hover {
+  background: #28282e;
+  transform: scale(1.04);
+  z-index: 5;
+}
+.who__rhomb:hover .who__rhomb-info a {
+  color: #fff;
+}
+.who__rhomb a {
+  display: block;
+  height: 100%;
+}
+.who__rhomb_transparent {
+  background-color: transparent;
+}
+.who__rhomb_transparent:hover {
+  background: transparent;
+  transform: scale(0);
+}
+.who__rhomb-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  min-width: 100%;
+  z-index: 5;
+}
+.who__rhomb-image {
+  margin-bottom: 10px;
+}
+.who__rhomb-image a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.who__rhomb-name a {
+  color: #474747;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.4s all ease;
+}
