@@ -261,7 +261,7 @@ h6 {
 @media (max-width: 1150px) {
   .services__main {
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 420px;
     max-width: 550px;
     position: relative;
     margin: 0 auto;
@@ -315,31 +315,31 @@ h6 {
 }
 @media (max-width: 1150px) {
   .services__rhomb-container {
-    position: relative;
-    padding-top: 0;
-    top: -550px;
-    left: 50%;
-    margin-bottom: -10px;
-    transform: rotate(-45deg) translateX(-50%);
+    padding-top: 1250px;
+    transform: rotate(-45deg) translateY(-68%);
+    /* top: -550px; */
+    /* left: 50%; */
+    /*  margin-bottom: -10px; */
+    /* transform: rotate(-45deg) translateX(-50%); */
   }
 }
 @media (max-width: 1050px) {
   .services__rhomb-container {
-    top: -500px;
-    left: 47%;
+    /* top: -500px;
+    left: 47%; */
   }
 }
 @media (max-width: 950px) {
   .services__rhomb-container {
-    top: -410px;
+    /* top: -410px;
     left: 45%;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
   }
 }
 @media (max-width: 850px) {
   .services__rhomb-container {
-    top: -360px;
-    left: 42%;
+    /* top: -360px;
+    left: 42%; */
   }
 }
 @media (max-width: 768px) {
@@ -348,6 +348,7 @@ h6 {
     position: relative;
     top: 0;
     left: 0;
+    padding-top: 0px;
   }
 }
 .services__row {
@@ -1000,7 +1001,7 @@ h6 {
 @media (max-width: 1150px) {
   .who__main {
     padding-top: 90px;
-    padding-bottom: 50px;
+    padding-bottom: 400px;
     max-width: 550px;
     position: relative;
     margin: 0 auto;
@@ -1069,31 +1070,33 @@ h6 {
 }
 @media (max-width: 1150px) {
   .who__rhomb-container {
-    position: relative;
+    padding-top: 1250px;
+    transform: rotate(-45deg) translateY(-68%);
+    /*  position: relative;
     padding-top: 0;
     top: -550px;
     left: 50%;
     margin-bottom: -10px;
-    transform: rotate(-45deg) translateX(-50%);
+    transform: rotate(-45deg) translateX(-50%); */
   }
 }
 @media (max-width: 1050px) {
   .who__rhomb-container {
-    top: -500px;
-    left: 47%;
+    /* top: -500px;
+    left: 47%; */
   }
 }
 @media (max-width: 950px) {
   .who__rhomb-container {
-    top: -410px;
+    /* top: -410px;
     left: 45%;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
   }
 }
 @media (max-width: 850px) {
   .who__rhomb-container {
-    top: -360px;
-    left: 42%;
+    /*  top: -360px;
+    left: 42%; */
   }
 }
 @media (max-width: 768px) {
@@ -1102,6 +1105,7 @@ h6 {
     position: relative;
     top: 0;
     left: 0;
+    padding-top: 0;
   }
 }
 .who__row {
@@ -1392,6 +1396,11 @@ h6 {
 .slow-bg {
   background-color: #28282e;
   padding: 150px 0;
+}
+@media (max-width: 900px) {
+  .slow-bg {
+    padding: 90px 0;
+  }
 }
 @media (max-width: 764px) {
   .slow-bg {
